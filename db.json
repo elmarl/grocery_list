@@ -1,24 +1,31 @@
 {
-  "data": [ 
-      { 
-         "id":1,
-         "title":"Bread 1 loaf",
-         "completed":false
-      },
-      { 
-         "id":2,
-         "title":"Cucumber 200 g",
-         "completed":false
-      },
-      { 
-         "id":3,
-         "title":"Milk 1 L",
-         "completed":true
-      },
-      { 
-         "id":4,
-         "title":"Salt 10 g",
-         "completed":false
-      }
-   ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
