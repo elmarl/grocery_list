@@ -1,6 +1,17 @@
-  [
-    { "id": 1, "title": "Bread 1 loaf","completed":false },
-    { "id": 2, "title": "Milk 1 L","completed":false },
-    { "id": 3, "title": "Salad 100 g","completed":false },
-    { "id": 4, "title": "Cucumber 100 g","completed":false }
-  ]
+[
+  {
+    "id": 1,
+    "title": "Bread",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "title": "Milk",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "title": "Cheese",
+    "completed": false
+  }
+]
